@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(-45deg, purple, blue, red);
+    animation: anim 10s ease infinite;
+    background-size: 400% 400%;
+
+}
+
+@keyframes anim {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    0%{
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    margin: 35px;
+    padding: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* background-color: rgb(192, 192, 192); */
+    height: 300px;
+    width: 250px;
+    border-radius: 25px;
+    /* opacity: 0.3; */
+  background-color: rgba(248, 248, 248, 0.3); /* blue with transparency */
+  color: black; /* text stays normal */
+
+
+}
+
+.h {
+    margin: 25px;
+    padding: 25px;
+    font-size: 45px;
+}
+
+#Bbtn {
+    gap: 16px;
+    height: 45px;
+    width: 60px;
+    background-color: #13d3da;
+    border-radius: 25px;
+    border-color: 2px solid black;
+    font-size: 40px;
+   
+}
