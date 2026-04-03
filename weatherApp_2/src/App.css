@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: system-ui, sans-serif;
+}
+
+.app{
+  height:100vh;
+  background:url("https://images.unsplash.com/photo-1501973801540-537f08ccae7b") no-repeat center/cover;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:40px;
+}
+
+.title{
+  font-size:32px;
+  font-weight:bold;
+  color:#000;
+  margin-bottom:20px;
+}
+
+.form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+
+.input{
+  width:400px;
+  padding:12px;
+  border-radius:8px;
+  border:2px solid #4a90e2;
+  outline:none;
+  font-size:16px;
+}
+
+.btn{
+  padding:10px 20px;
+  background:#4a90e2;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.btn:hover{
+  background:#357abd;
+}
+
+.cards{
+  margin-top:30px;
+}
+
+.card{
+  width:500px;
+  background:#eaeaea;
+  padding:20px;
+  border-radius:12px;
+}
+
+.city{
+  font-size:22px;
+  font-weight:600;
+}
+
+.date{
+  color:#666;
+  margin-bottom:10px;
+}
+
+.weather-box{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.temp{
+  font-size:70px;
+  font-weight:bold;
+}
+
+.icon{
+  width:80px;
+}
+
+.condition{
+  margin-top:10px;
+  font-size:16px;
+}
+
+.search-text{
+  margin-top:20px;
+}
