@@ -51,7 +51,7 @@ const App = () => {
   }
   return (
     <div className="container">
-      <h1 className="title">🧠 Quiz App</h1>
+      <h1 className="title"> Quiz App</h1>
 
       {loading && <p className="status">Loading...</p>}
       {error && <p className="status error">Error occurred</p>}
